@@ -177,6 +177,8 @@ pre, code {
   
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
+  -webkit-box-shadow: 1px 1px 60px 5px #BFBFBF;
+box-shadow: 1px 1px 60px 5px #BFBFBF;
 }
 
 pre {
@@ -308,8 +310,8 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  color: #222;
-  font-size: 42px;
+  color: #fafafa;
+  font-size: 62px;
   font-weight: 700;
   text-shadow: 1px 1px #08905E, 2px 2px #08905E, 3px 3px #fff;
 }

@@ -62,7 +62,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222; 
   font-family: 'Bree Serif', 'Lucida Grande', 'Calibri', serif, Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
@@ -77,22 +76,27 @@ h2 {
   padding-bottom: 10px;
   font-size: 32px;
   background: url('../images/bg_hr.png') repeat-x bottom;
+  color:#222222;
 }
 
 h3 {
   font-size: 24px;
+  color:#222222;
 }
 
 h4 {
   font-size: 21px;
+  color:#222222;
 }
 
 h5 {
   font-size: 18px;
+  color:#222222;
 }
 
 h6 {
   font-size: 16px;
+  color:#222222;
 }
 
 p {
@@ -121,7 +125,7 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-a:hover, a:focus {border-bottom: 1px solid #000; background: #B2F9DF;}
+a:hover, a:focus {border-bottom: 1px dashed #000; background: #CAFAE8;}
 
 footer a {
   color: #F2F2F2;

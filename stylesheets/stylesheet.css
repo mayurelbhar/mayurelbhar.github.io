@@ -4,7 +4,7 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(pygment_trac.css);
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(http://fonts.googleapis.com/css?family=Righteous);
 @import url(http://fonts.googleapis.com/css?family=Cabin);
 
 /*******************************************************************************
@@ -300,6 +300,7 @@ Full-Width Styles
   -webkit-box-shadow: 1px 1px 60px 5px #BFBFBF;
 box-shadow: 1px 1px 60px 5px #BFBFBF;
 
+
 }
 
 #header_wrap .inner {
@@ -312,6 +313,7 @@ box-shadow: 1px 1px 60px 5px #BFBFBF;
   color: #fafafa;
   font-size: 62px;
   font-weight: 700;
+  font-family: 'Righteous', cursive;
   text-shadow: 1px 1px #212121, 2px 2px #212121, 3px 3px #fff;
 }
 

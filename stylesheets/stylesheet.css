@@ -296,7 +296,7 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #2ECE93;
+  background: #212121;
   -webkit-box-shadow: 1px 1px 60px 5px #BFBFBF;
 box-shadow: 1px 1px 60px 5px #BFBFBF;
 
@@ -312,7 +312,7 @@ box-shadow: 1px 1px 60px 5px #BFBFBF;
   color: #fafafa;
   font-size: 62px;
   font-weight: 700;
-  text-shadow: 1px 1px #08905E, 2px 2px #08905E, 3px 3px #fff;
+  text-shadow: 1px 1px #212121, 2px 2px #212121, 3px 3px #fff;
 }
 
 #project_tagline {

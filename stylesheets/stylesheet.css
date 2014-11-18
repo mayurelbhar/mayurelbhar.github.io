@@ -1,146 +1,50 @@
-/*=============FONTS================*/
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
 
-body{
-    background:
-	repeating-linear-gradient(
-		-45deg,
-		transparent,
-		transparent 25%,
-		tomato 0,
-		tomato 50%
-	),
-	repeating-linear-gradient(
-		45deg,
-		transparent,
-		transparent 25%,
-		dodgerblue 0,
-		dodgerblue 50%
-	), wheat;
+body {
+background: #FFFFFF;
 
-background-size: 10em 10em;
-background-blend-mode: multiply;
 }
 
-header {
-background: #fff;
-height: 100px;
-width: 105%;
-margin: -10px;
-margin-top: -10px;
-border-bottom: 1px solid #000;
-}
-
-.logo {
-   margin-top: 10px;
-   margin-left: 90px;
-}
-
-nav {
-font-family: 'Source Sans Pro', sans-serif;
-line-height: 20px;
-float: right;
-margin-right: 150px;
-margin-top: 30px;
-}
-
-nav ul li {
-list-style: none;
-display: inline-block;
-padding: 20px;
-padding-bottom: 8px;
-padding-top: 8px;
-border: 1px solid #fff;
-}
-
-nav ul li:hover {
-border-color: #000;
-color: #282626;
-transition: border-color 0.3s;
-transition: color 0.3s;
-cursor: pointer;
-}
-
-.intro {
-font-family: 'Source Sans Pro', sans-serif;
-background: #11c9a0;
-height: 450px;
-width: 105%;
-margin: -10px;
-margin-top: -54px;
+h1 {
+font-family: 'Anton', sans-serif;
+font-size: 120px;
 text-align: center;
-color: #fff;
-border-bottom: 1px solid #000;
-}
-
-
- h1 {
-font-size: 80px;
-}
-
-.intro span {
-color: #282626;
-}
-
-.services {
-margin-bottom: 200px;
-}
-
-
-.serv_container {
-height: 100%;
-width: 210px;
-border: 2px solid #282626;
-color: #282626;
-font-family: 'Source Sans Pro', sans-serif;
-text-align: center;
+margin-left: 50px;
 margin-top: 100px;
-margin-left: 100px;
+transition: opacity 0.2s;
+margin-top: -20px;
 }
 
-.serv_container2 {
-height: 100%;
-width: 210px;
-border: 2px solid #282626;
-color: #282626;
-font-family: 'Source Sans Pro', sans-serif;
-text-align: center;
-margin-top: -349px;
-margin-left: 400px;
+h1:hover {
+opacity: 0.5;
+transition: opacity 0.2s;
 }
 
-.serv_container3 {
-height: 100%;
-width: 210px;
-border: 2px solid #282626;
-color: #282626;
-font-family: 'Source Sans Pro', sans-serif;
-text-align: center;
-margin-top: -349px;
-margin-left: 700px;
+p {
+
+text-align: justify;
+margin-left: 150px;
+font-family: 'Droid Serif', serif;
+color: #424242;
+font-size: 20px;
+line-height: 1.5;
+margin-right: 150px;
 }
 
-.serv_container4 {
-height: 100%;
-width: 220px;
-border: 2px solid #282626;
-color: #282626;
-font-family: 'Source Sans Pro', sans-serif;
-text-align: center;
-margin-top: -349px;
-margin-left: 1000px;
+a {
+text-align: justify;
+text-decoration: underline;
+
+color: #000;
+font-family: 'Droid Serif', serif;
+font-weight: 400italic;
 }
 
-.footer {
-height: 150px;
-width: 105%;
-margin: -10px;
-background: #282626;
+.connect {
+margin-left: 150px;
 }
 
-.pnf  img {
-height: 500px;
-width: 1300px;
-margin: 0px;
-margin-bottom: -10px;
+.connect a {
+padding-right: 50px;
 }

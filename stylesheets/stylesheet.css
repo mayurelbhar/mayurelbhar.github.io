@@ -53,9 +53,9 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #1CCAA1;
-  font-size: 60px;
+  font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
 

@@ -299,7 +299,7 @@ Full-Width Styles
   background: #2ECE93;
   -webkit-box-shadow: 1px 1px 60px 5px #BFBFBF;
 box-shadow: 1px 1px 60px 5px #BFBFBF;
-position: fixed;
+
 }
 
 #header_wrap .inner {
@@ -308,6 +308,7 @@ position: fixed;
 
 #project_title {
   margin: 0;
+  text-align: center;
   color: #fafafa;
   font-size: 62px;
   font-weight: 700;

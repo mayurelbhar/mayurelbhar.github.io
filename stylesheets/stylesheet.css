@@ -323,6 +323,8 @@ box-shadow: 1px 1px 60px 5px #BFBFBF;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
 }
 
 #downloads {

@@ -13,6 +13,18 @@ html {
  
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: transperent;
+}
+
+::selection {
+    color: white;
+    background: transperent;
+}
+
+
+
 h1 {
  color: #fff;
   font-family: 'Bree Serif', serif;

@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+html { 
+  background: url(http://i.imgur.com/znnjY6r.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: transperent;
+}
+
+::selection {
+    color: white;
+    background: transperent;
+}
+
+h1 {
+ color: #fff;
+  font-family: 'Bree Serif', serif;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 80px;
+    margin-top: 250px;
+    
+    
+}
+
+a {
+ text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #fff;
+    
+}
+

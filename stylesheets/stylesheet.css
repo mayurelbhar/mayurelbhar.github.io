@@ -36,12 +36,13 @@ font-weight:400;
 #app_link {
     float: right;
     margin-right: 100px;
-    font: 18px segoe UI;
+    font-size: 18px segoe UI;
     color: #212121;
     background: #fafafa;
     height: 22px;
-    width: 150px;
+    width: 350px;
     text-align: center;
+   font-family: 'Lobster', cursive;
 }
 
 #hero1{

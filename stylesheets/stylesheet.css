@@ -39,10 +39,11 @@ font-weight:400;
     font-size: 18px segoe UI;
     color: #212121;
     background: #fafafa;
-    height: 22px;
+    height: 50px;
+    margin-top:10px;
     width: 350px;
     text-align: center;
-   font-family: 'Lobster', cursive;
+   font-family: 'Amaranth', sans-serif;
 }
 
 #hero1{

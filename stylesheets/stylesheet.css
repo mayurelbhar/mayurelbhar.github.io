@@ -39,10 +39,12 @@ h1 {
     border-radius: 40px;
     box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
      -webkit-filter: grayscale(100%);
+     -moz--webkit-filter: grayscale(100%);
 }
 
 .Photo img:hover { 
   -webkit-filter: grayscale(0%);
+  -moz--webkit-filter: grayscale(100%);
 }
 
 span {
